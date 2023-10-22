@@ -9,11 +9,20 @@
 
 <h1>List of HTML Files</h1>
 
-<h2>Files in output_time_cluster</h2>
-<ul id="fileListTimeCluster"></ul>
+<h2>Character Network Anlaysis with Onstage Character Traits</h2>
+<ul id="fileListTimelineCluster"></ul>
 
-<h2>Files in output_image</h2>
-<ul id="fileListImage"></ul>
+<h2>Character Network Anlaysis with the Amount of Words Exchanged between Characters: Two Clusters</h2>
+<ul id="fileListOutputKmeans"></ul>
+
+<h2>Character Network Anlaysis with the Amount of Words Exchanged between Characters: Commnity Dectection</h2>
+<ul id="fileListCommunityDetection"></ul>
+
+<h2>Heat Map Anlaysis with the Amount of Words Exchanged between Characters</h2>
+<ul id="fileListHeatmaps"></ul>
+
+<h2>Heat Map Anlaysis with Onstage Character Traits</h2>
+<ul id="fileListOutputTimeline"></ul>
 
 <script>
     async function fetchHtmlFilesInDirectory(directory, listElementId) {
@@ -38,8 +47,11 @@
         });
     }
 
-    fetchHtmlFilesInDirectory('output_timeline_cluster', 'fileListTimeCluster');
-    fetchHtmlFilesInDirectory('community_detection', 'fileListImage');
+    fetchHtmlFilesInDirectory('output_timeline_cluster', 'fileListTimelineCluster');
+    fetchHtmlFilesInDirectory('output_kmeans', 'fileListOutputKmeans');
+    fetchHtmlFilesInDirectory('community_detection', 'fileListCommunityDetection');
+    fetchHtmlFilesInDirectory('heatmaps', 'fileListHeatmaps');
+    fetchHtmlFilesInDirectory('output_timeline', 'fileListOutputTimeline');
 </script>
 
 </body>
