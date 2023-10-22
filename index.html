@@ -1,39 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character Network Analysis of Shakespearean Texts</title>
-    <br>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
-  <body>
-    <h1>
-        Character Network Analysis of Shakespearean Texts
-    </h1>
-    <p style="font-size:15px">
-      Kim, Heejin. "Character Network Analysis of Shakespearean Texts" <em>Digital Scholarship in the Humanities</em>, 36.4 (2021) pp. 919-933
-      <br>
-    <p>
-        <ul>
-          <li><a href="output_image">Figure 1. Distribution of Similarity Scores by TLNs: <em>Contention</em> vs. <em>Henry VI Part Two</em></a></li>
-          <li><a href="output_image2/">Figure 2. Distribution of Similarity Scores by TLNs: <em>Duke of York</em> vs. <em>Henry VI Part Three</em></a></li>
-          <li><a href="output_timeline/">Figure 3. Average Scores by a Reporter Speaking or Onstage</a></li> 
-          <li><a href="fig4.html">Figure 4. Average Similarity Scores by Roles: <em>Contention</em> vs. <em>Henry VI Part Two</em></a></li>
-          <li><a href="fig5.html">Figure 5. Average Similarity Scores by Roles: <em>Duke of York</em> vs. <em>Henry VI Part Three</em></a></li>
-          <li><a href="fig6.html">Figure 6. Distribution of Similarity Scores by Roles: <em>Contention</em> vs. <em>Henry VI Part Two</em></a></li>
-          <li><a href="fig7.html">Figure 7. Distribution of Similarity Scores by Roles: <em>Duke of York</em> vs. <em>Henry VI Part Three</em></a></li>
-          <li><a href="fig8.html">Figure 8. Average Similarity Scores by Scenes: <em>Contention</em> vs. <em>Henry VI Part Two</em></a></li>
-          <li><a href="fig9.html">Figure 9. Average Similarity Scores by Scenes: <em>Duke of York</em> vs. <em>Henry VI Part Three</em></a></li>
-          <li><a href="fig10.html">Figure 10. Distribution of Similarity Scores by Scenes: <em>Contention</em> vs. <em>Henry VI Part Two</em></a></li>
-          <li><a href="fig11.html">Figure 11. Distribution of Similarity Scores by Scenes: <em>Duke of York</em> vs. <em>Henry VI Part Three</em></a></li>
-          <li><a href="fig12.html">Figure 12. Strength of Association</a></li>
-          <li><a href="Table_2H6.html">Table of Similarity Scores by TLN, Speaker, Reporter, and Scene Number: <em>Contention</em> vs. <em>Henry VI Part Two</em></a></li>
-          <li><a href="Table_3H6.html">Table of Similarity Scores by TLN, Speaker, Reporter, and Scene Number: <em>Duke of York</em> vs. <em>Henry VI Part Three</em></a></li>
-        </ul>
-    </p>
-  <p style="font-size:10px">
-    <br>
-    Digital Scholarship in the Humanities &copy; The Author(s) 2020. Published by Oxford University Press on behalf of EADH. All rights reserved. For permissions, please email: journals.permissions@oup.com
-  </p>
-  </body>
+</head>
+<body>
+
+<h1>List of HTML Files</h1>
+
+<h2>Files in output_time_cluster</h2>
+<ul id="fileListTimeCluster"></ul>
+
+<h2>Files in output_image</h2>
+<ul id="fileListImage"></ul>
+
+<script>
+    async function fetchHtmlFilesInDirectory(directory, listElementId) {
+        const repoName = 'Character-Network-Analysis'; // replace with your repo name
+        const userName = 'hkim1596'; // replace with your username
+        const url = `https://api.github.com/repos/${userName}/${repoName}/git/trees/main?recursive=1`;
+        
+        const response = await fetch(url);
+        const data = await response.json();
+        
+        const htmlFiles = data.tree.filter(item => item.path.startsWith(directory) && item.path.endsWith('.html'));
+
+        const fileListElement = document.getElementById(listElementId);
+        
+        htmlFiles.forEach(file => {
+            const liElement = document.createElement('li');
+            const aElement = document.createElement('a');
+            aElement.href = file.path;
+            aElement.innerText = file.path;
+            liElement.appendChild(aElement);
+            fileListElement.appendChild(liElement);
+        });
+    }
+
+    fetchHtmlFilesInDirectory('output_time_cluster', 'fileListTimeCluster');
+    fetchHtmlFilesInDirectory('output_image', 'fileListImage');
+</script>
+
+</body>
 </html>
