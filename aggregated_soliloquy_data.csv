@@ -1,0 +1,137 @@
+Play,Character,Words
+MM_matrix,Duke,350.0
+MM_matrix,Isabella,157.0
+MM_matrix,Angelo,430.0
+MM_matrix,Pompey,192.0
+MM_matrix,Bawd,38.0
+2H4_matrix,Falstaff 1H4,456.0
+2H4_matrix,Henryiv 1H4,6.0
+2H4_matrix,Lordbardolph,17.0
+2H4_matrix,Chorus,336.0
+JC_matrix,Brutus,453.0
+JC_matrix,Caesar,30.0
+JC_matrix,Artemidorus,141.0
+R3_matrix,Richardiii,607.0
+R3_matrix,Murderers 1,55.0
+R3_matrix,Murderers 2,25.0
+Shr_matrix,Sly,30.0
+Jn_matrix,Bastard,382.0
+Jn_matrix,Kingjohn,52.0
+Jn_matrix,Arthur,108.0
+Tim_matrix,Timon,385.0
+Tim_matrix,Apemantus,37.0
+Tim_matrix,Flavius,113.0
+Tim_matrix,Servants Timon Flaminius,120.0
+Tim_matrix,Senators X,141.0
+Tim_matrix,Servants Timon X 2,149.0
+TNK_matrix,Prologue,313.0
+MV_matrix,Lanceletgobbo,343.0
+MV_matrix,Jessica,21.0
+2H6_matrix,York 1H6,438.0
+2H6_matrix,Hume,205.0
+WT_matrix,Camillo,132.0
+MND_matrix,Bottom,225.0
+MND_matrix,Helena,243.0
+MND_matrix,Lysander,80.0
+MND_matrix,Oberon,49.0
+MND_matrix,Robingoodfellow,285.0
+Per_matrix,Pericles,460.0
+Per_matrix,Simonides,92.0
+Per_matrix,Gower,1239.0
+Per_matrix,Antiochus,62.0
+Per_matrix,Thaliard,118.0
+AWW_matrix,Helen,701.0
+AWW_matrix,Parolles,219.0
+AWW_matrix,Countess,120.0
+3H6_matrix,Warwick 2H6,384.0
+3H6_matrix,Richardiii R3,674.0
+3H6_matrix,Henryvi 1H6,527.0
+3H6_matrix,York 1H6,304.0
+3H6_matrix,Clifford,278.0
+Ham_matrix,Hamlet,563.0
+Ham_matrix,Claudius,18.0
+Tmp_matrix,Prospero,847.0
+Tmp_matrix,Gonzalo,39.0
+Tmp_matrix,Caliban,169.0
+Tmp_matrix,Ferdinand,138.0
+Mac_matrix,Macbeth,419.0
+Mac_matrix,Ladymacbeth,536.0
+Mac_matrix,Banquo,103.0
+Mac_matrix,Macduff,108.0
+Mac_matrix,Porter,244.0
+Cor_matrix,Citizens Roman,47.0
+Cor_matrix,Soldiers Roman,8.0
+Rom_matrix,Romeo,440.0
+Rom_matrix,Friarlawrence,306.0
+Rom_matrix,Juliet,1101.0
+Rom_matrix,Servants Capulet X 1,76.0
+Rom_matrix,Chorus,254.0
+1H6_matrix,Talbot,351.0
+1H6_matrix,Pucelle,280.0
+1H6_matrix,Cardinalbeaufort,58.0
+1H6_matrix,Lucy,56.0
+1H6_matrix,Exeter H5,243.0
+1H6_matrix,Vernon,21.0
+1H6_matrix,Countess,62.0
+1H6_matrix,Boy,21.0
+1H6_matrix,Soldiers English 1,38.0
+AYL_matrix,Rosalind,257.0
+AYL_matrix,Orlando,132.0
+AYL_matrix,Oliver,31.0
+AYL_matrix,Olivermartext,19.0
+Err_matrix,Antipholusofsyracuse,568.0
+Err_matrix,Dromioofsyracuse,48.0
+Err_matrix,Courtesan,146.0
+LLL_matrix,Berowne,579.0
+LLL_matrix,Costard,221.0
+LLL_matrix,Armado,260.0
+Ado_matrix,Benedick,489.0
+Ado_matrix,Beatrice,96.0
+Ado_matrix,Claudio,97.0
+R2_matrix,Salisbury,65.0
+TN_matrix,Olivia,151.0
+TN_matrix,Feste,276.0
+TN_matrix,Viola,354.0
+TN_matrix,Malvolio,238.0
+TN_matrix,Sebastian,208.0
+TN_matrix,Antonio,48.0
+Cym_matrix,Iachimo,97.0
+Cym_matrix,Belarius,414.0
+Cym_matrix,Posthumus,681.0
+Cym_matrix,Imogen,831.0
+Cym_matrix,Pisanio,429.0
+Cym_matrix,Cloten,781.0
+TGV_matrix,Valentine,329.0
+TGV_matrix,Proteus,711.0
+TGV_matrix,Julia,629.0
+TGV_matrix,Lance,248.0
+TGV_matrix,Eglamour,102.0
+1H4_matrix,Falstaff,899.0
+1H4_matrix,Henryv H5,209.0
+1H4_matrix,Hotspur R2,436.0
+1H4_matrix,Gadshill,5.0
+1H4_matrix,Travelers Carriers 1,64.0
+Tro_matrix,Hector,40.0
+Tro_matrix,Troilus,315.0
+Tro_matrix,Pandarus,276.0
+Tro_matrix,Thersites,1055.0
+Tro_matrix,Diomedes,22.0
+Tro_matrix,Ajax,23.0
+Tro_matrix,Prologue,266.0
+Tro_matrix,Bastard,7.0
+Wiv_matrix,Masterford,748.0
+Wiv_matrix,Falstaff 1H4,450.0
+Wiv_matrix,Mistresspage,377.0
+Wiv_matrix,Hughevans,135.0
+Wiv_matrix,Mistressquickly 1H4,15.0
+Wiv_matrix,Mistressford,24.0
+H5_matrix,Henryv,183.0
+H5_matrix,Pistol 2H4,95.0
+H5_matrix,Chorus,1966.0
+H5_matrix,Boy,297.0
+Ant_matrix,Enobarbus,123.0
+Ant_matrix,Scarus,54.0
+H8_matrix,Wolsey,267.0
+H8_matrix,Chamberlain,114.0
+H8_matrix,Prologue,306.0
+H8_matrix,Epilogue,140.0
