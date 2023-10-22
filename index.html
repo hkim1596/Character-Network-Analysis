@@ -75,7 +75,7 @@
             const liElement = document.createElement('li');
             const aElement = document.createElement('a');
             aElement.href = file.path;
-            aElement.innerText = file.path;
+            aElement.innerText = file.path.split('/').pop();
             liElement.appendChild(aElement);
             fileListElement.appendChild(liElement);
         });
