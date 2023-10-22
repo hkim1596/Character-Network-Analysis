@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,67 +37,34 @@
             margin-top: 20px;
             font-size: 1.5em;
         }
-        
-        /* Dropdown */
-        .hidden {
-            display: none;
-        }
     </style>
 </head>
 <body>
-
 <h1>Character Network Analysis of Shakespearean Texts</h1>
 <h1>List of Visual Analyses by Heejin Kim</h1>
 
-<div class="dropdown">
-    <h2>Character Network Analysis with Onstage Character Traits</h2>
-    <ul id="fileListTimelineCluster" class="hidden"></ul>
-</div>
+<h2>Character Network Analysis with Onstage Character Traits</h2>
+<ul id="fileListTimelineCluster"></ul>
 
-<div class="dropdown">
-    <h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Two Clusters</h2>
-    <ul id="fileListOutputKmeans" class="hidden"></ul>
-</div>
+<h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Two Clusters</h2>
+<ul id="fileListOutputKmeans"></ul>
 
-<div class="dropdown">
-    <h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Community Detection</h2>
-    <ul id="fileListCommunityDetection" class="hidden"></ul>
-</div>
+<h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Community Detection</h2>
+<ul id="fileListCommunityDetection"></ul>
 
-<div class="dropdown">
-    <h2>Heat Map Analysis with the Amount of Words Exchanged between Characters</h2>
-    <ul id="fileListHeatmaps" class="hidden"></ul>
-</div>
+<h2>Heat Map Analysis with the Amount of Words Exchanged between Characters</h2>
+<ul id="fileListHeatmaps"></ul>
 
-<div class="dropdown">
-    <h2>Heat Map Analysis with Onstage Character Traits</h2>
-    <ul id="fileListOutputTimeline" class="hidden"></ul>
-</div>
+<h2>Heat Map Analysis with Onstage Character Traits</h2>
+<ul id="fileListOutputTimeline"></ul>
 
-<div class="dropdown">
-    <h2>The Size of Soliloquy by Character</h2>
-    <p id="bar_plot_soliloquies.html" class="hidden"></p>
-</div>
+<h2>The Size of Soliloquy by Character</h2>
+<p id="bar_plot_soliloquies.html"></p>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const dropdownHeaders = document.querySelectorAll('.dropdown h2');
-        
-        dropdownHeaders.forEach(header => {
-            header.addEventListener('click', function() {
-                const content = this.nextElementSibling;
-                if (content.style.display === 'none' || content.style.display === '') {
-                    content.style.display = 'block';
-                } else {
-                    content.style.display = 'none';
-                }
-            });
-        });
-    });
-
     async function fetchHtmlFilesInDirectory(directory, listElementId) {
-        const repoName = 'Character-Network-Analysis';
-        const userName = 'hkim1596';
+        const repoName = 'Character-Network-Analysis'; // replace with your repo name
+        const userName = 'hkim1596'; // replace with your username
         const url = `https://api.github.com/repos/${userName}/${repoName}/git/trees/main?recursive=1`;
         
         const response = await fetch(url);
@@ -115,7 +82,6 @@
             liElement.appendChild(aElement);
             fileListElement.appendChild(liElement);
         });
-        fileListElement.style.display = 'none';  // hide content after populating
     }
 
     fetchHtmlFilesInDirectory('output_timeline_cluster', 'fileListTimelineCluster');
