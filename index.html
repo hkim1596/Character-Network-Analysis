@@ -4,24 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character Network Analysis of Shakespearean Texts</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f9fc;
+            margin: 40px;
+            color: #333;
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+        }
+
+        /* Headers */
+        h1 {
+            background-color: #0077cc;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        h2 {
+            border-left: 5px solid #0077cc;
+            padding-left: 15px;
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+    </style>
 </head>
 <body>
 
-<h1>List of HTML Files</h1>
+<h1>List of Visual Analyses</h1>
 
-<h2>Character Network Anlaysis with Onstage Character Traits</h2>
+<h2>Character Network Analysis with Onstage Character Traits</h2>
 <ul id="fileListTimelineCluster"></ul>
 
-<h2>Character Network Anlaysis with the Amount of Words Exchanged between Characters: Two Clusters</h2>
+<h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Two Clusters</h2>
 <ul id="fileListOutputKmeans"></ul>
 
-<h2>Character Network Anlaysis with the Amount of Words Exchanged between Characters: Commnity Dectection</h2>
+<h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Community Detection</h2>
 <ul id="fileListCommunityDetection"></ul>
 
-<h2>Heat Map Anlaysis with the Amount of Words Exchanged between Characters</h2>
+<h2>Heat Map Analysis with the Amount of Words Exchanged between Characters</h2>
 <ul id="fileListHeatmaps"></ul>
 
-<h2>Heat Map Anlaysis with Onstage Character Traits</h2>
+<h2>Heat Map Analysis with Onstage Character Traits</h2>
 <ul id="fileListOutputTimeline"></ul>
 
 <script>
