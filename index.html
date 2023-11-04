@@ -43,8 +43,17 @@
 
 <h1>Character Network Analysis of Shakespearean Texts<br>Heejin Kim, Kyungpook National University</h1>
 
-<h2>Character Network Analysis with Onstage Character Traits</h2>
-<ul id="fileListTimelineCluster"></ul>
+<h2>Heat Map Analysis with Onstage Character Traits</h2>
+<ul id="fileListOuputOnstageHeatMmap"></ul>
+
+<h2>Character Network Analysis with Onstage Character Traits: Two Clusters</h2>
+<ul id="fileListOutputOnstageKmeans"></ul>
+
+<h2>Character Network Analysis with Onstage Character Traits: Community Detection</h2>
+<ul id="fileListOutputOnstageCommunity"></ul>
+
+<h2>Heat Map Analysis with the Amount of Words Exchanged between Characters</h2>
+<ul id="fileListHeatmaps"></ul>
 
 <h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Two Clusters</h2>
 <ul id="fileListOutputKmeans"></ul>
@@ -52,16 +61,16 @@
 <h2>Character Network Analysis with the Amount of Words Exchanged between Characters: Community Detection</h2>
 <ul id="fileListCommunityDetection"></ul>
 
-<h2>Heat Map Analysis with the Amount of Words Exchanged between Characters</h2>
-<ul id="fileListHeatmaps"></ul>
+<h2>Character Network Analysis with Words Exchanged between Character: BERT</h2>
+<li><a href="hamlet_BERT.html">Bar Plot Soliloquies Analysis</a></li>
+</ul>
 
-<h2>Heat Map Analysis with Onstage Character Traits</h2>
-<ul id="fileListOutputTimeline"></ul>
 
 <h2>Bar Plot Soliloquies Analysis</h2>
 <ul id="fileListBarPlotSoliloquies">
 <li><a href="bar_plot_soliloquies.html">Bar Plot Soliloquies Analysis</a></li>
 </ul>
+
 
 <script>
     async function fetchHtmlFilesInDirectory(directory, listElementId) {
@@ -86,11 +95,13 @@
         });
     }
 
-    fetchHtmlFilesInDirectory('output_timeline_cluster', 'fileListTimelineCluster');
+    fetchHtmlFilesInDirectory('output_onstage_heatmap', 'fileListOuputOnstageHeatMmap');
+    fetchHtmlFilesInDirectory('output_onstage_kmeans', 'fileListOutputOnstageKmeans');
+    fetchHtmlFilesInDirectory('output_onstage_community', 'fileListOutputOnstageCommunity');
+    fetchHtmlFilesInDirectory('heatmaps', 'fileListHeatmaps');
     fetchHtmlFilesInDirectory('output_kmeans', 'fileListOutputKmeans');
     fetchHtmlFilesInDirectory('community_detection', 'fileListCommunityDetection');
-    fetchHtmlFilesInDirectory('heatmaps', 'fileListHeatmaps');
-    fetchHtmlFilesInDirectory('output_timeline', 'fileListOutputTimeline');
+
 </script>
 
 </body>
