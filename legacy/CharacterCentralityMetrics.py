@@ -7,6 +7,10 @@ output_dir = 'output'
 output_metrics_dir = 'output_metrics'
 files = [f for f in os.listdir(output_dir) if f.endswith('.csv')]
 
+# Load the CSV with the play titles
+plays_df = pd.read_csv('metadata/list_of_shakespeare_plays0.csv', header=None)
+play_title_mapping = dict(zip(plays_df[0].str.strip(), plays_df[1].str.strip()))
+
 # If the output_metrics directory does not exist, create it
 if not os.path.exists(output_metrics_dir):
     os.makedirs(output_metrics_dir)
@@ -17,6 +21,12 @@ results = pd.DataFrame(columns=['Play', 'Degree Centrality', 'Betweenness Centra
                                 'Density', 'Cluster Coefficient'])
 
 for f in files:
+    # Get the base of the filename (without extension)
+    base_filename = os.path.splitext(f)[0]
+    
+    # Look up the full title in the play_title_mapping, default to the base filename if not found
+    full_play_title = play_title_mapping.get(base_filename, base_filename)
+    
     # Load dataframe from CSV
     df = pd.read_csv(os.path.join(output_dir, f))
     
@@ -33,7 +43,7 @@ for f in files:
 
     # Append results to dataframe
     new_row = pd.DataFrame([{
-        'Play': f.replace('.csv', ''),
+        'Play': full_play_title,
         'Degree Centrality': degree_centrality,
         'Betweenness Centrality': betweenness_centrality,
         'Closeness Centrality': closeness_centrality,
