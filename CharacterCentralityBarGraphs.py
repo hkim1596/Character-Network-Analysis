@@ -22,5 +22,5 @@ for metric in metrics:
     plt.xticks(rotation=45)
     plt.tight_layout()
     
-    plt.savefig(f'output_image/{metric} Bar Graph.png', dpi=600)
+    plt.savefig(f'output_centrality_bar_graphs/{metric} Bar Graph.png', dpi=600)
     #plt.show()

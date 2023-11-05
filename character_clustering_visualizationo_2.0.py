@@ -15,7 +15,7 @@ from sklearn.manifold import TSNE
 current_dir = os.getcwd()
 
 # Construct the path to the JSON file in the output directory
-file_path = os.path.join(current_dir, "output", "Ham.json")
+file_path = os.path.join(current_dir, "output_json", "Ham.json")
 
 # Determine the path to the output_image2 directory
 output_image2_dir = os.path.join(current_dir, "output_image2")

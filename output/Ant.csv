@@ -1,0 +1,613 @@
+speaker,listener,total_words
+ATTENDANTS.ANTONY_Ant,Antony_JC,6
+Agrippa_Ant,ATTENDANTS.OCTAVIA_Ant,5
+Agrippa_Ant,Antony_JC,199
+Agrippa_Ant,Dolabella_Ant,6
+Agrippa_Ant,Enobarbus_Ant,346
+Agrippa_Ant,GUARDS.Dercetus_Ant,43
+Agrippa_Ant,Gallus_Ant,43
+Agrippa_Ant,Lepidus_JC,214
+Agrippa_Ant,Maecenas_Ant,327
+Agrippa_Ant,Octavia_Ant,43
+Agrippa_Ant,Octavius_JC,284
+Agrippa_Ant,Proculeius_Ant,43
+Agrippa_Ant,SOLDIERS.ANTONY.0_Ant,29
+Agrippa_Ant,SOLDIERS.CAESAR_Ant,23
+Agrippa_Ant,Ventidius_Ant,161
+Agrippa_Ant Maecenas_Ant GUARDS.Dercetus_Ant,Agrippa_Ant,3
+Agrippa_Ant Maecenas_Ant GUARDS.Dercetus_Ant,GUARDS.Dercetus_Ant,3
+Agrippa_Ant Maecenas_Ant GUARDS.Dercetus_Ant,Maecenas_Ant,3
+Agrippa_Ant Maecenas_Ant GUARDS.Dercetus_Ant,Octavius_JC,3
+Alexas_Ant,Charmian_Ant,263
+Alexas_Ant,Cleopatra_Ant,190
+Alexas_Ant,Enobarbus_Ant,83
+Alexas_Ant,Iras_Ant,263
+Alexas_Ant,MESSENGERS.X.2_Ant,19
+Alexas_Ant,Mardian_Ant,238
+Alexas_Ant,SERVANTS.Lamprius_Ant,83
+Alexas_Ant,SERVANTS.Lucillius_Ant,83
+Alexas_Ant,SERVANTS.Rannius_Ant,83
+Alexas_Ant,Soothsayer_Ant,83
+Ambassador_Ant,ATTENDANTS.CAESAR_Ant,121
+Ambassador_Ant,Agrippa_Ant,121
+Ambassador_Ant,Antony_JC,11
+Ambassador_Ant,Charmian_Ant,11
+Ambassador_Ant,Cleopatra_Ant,11
+Ambassador_Ant,Dolabella_Ant,121
+Ambassador_Ant,Enobarbus_Ant,11
+Ambassador_Ant,Iras_Ant,11
+Ambassador_Ant,Octavius_JC,121
+Ambassador_Ant,Thidias_Ant,121
+Antony_JC,ATTENDANTS.ANTONY_Ant,560
+Antony_JC,ATTENDANTS_Ant,719
+Antony_JC,Agrippa_Ant,1272
+Antony_JC,Alexas_Ant,234
+Antony_JC,Ambassador_Ant,136
+Antony_JC,Boy_Ant,258
+Antony_JC,CAPTAINS_Ant,371
+Antony_JC,Canidius_Ant,200
+Antony_JC,Charmian_Ant,2858
+Antony_JC,Cleopatra_Ant,3431
+Antony_JC,Demetrius_Ant,234
+Antony_JC,Diomedes_Ant,315
+Antony_JC,EUNUCHS_Ant,234
+Antony_JC,Enobarbus_Ant,3186
+Antony_JC,Eros_Ant,1729
+Antony_JC,GUARDS.Dercetus_Ant,31
+Antony_JC,GUARDS_Ant,301
+Antony_JC,Iras_Ant,2528
+Antony_JC,Lepidus_JC,1272
+Antony_JC,MESSENGERS.ANTONY.1_Ant,136
+Antony_JC,MESSENGERS.ANTONY.2_Ant,51
+Antony_JC,MESSENGERS.ANTONY.3_Ant,101
+Antony_JC,MESSENGERS.X.1_Ant,209
+Antony_JC,Maecenas_Ant,1110
+Antony_JC,Mardian_Ant,493
+Antony_JC,Menas_Ant,378
+Antony_JC,Octavia_Ant,452
+Antony_JC,Octavius_JC,1339
+Antony_JC,Philo_Ant,234
+Antony_JC,Pompey_Ant,378
+Antony_JC,SERVANTS.ANTONY_Ant,270
+Antony_JC,SERVANTS.X.2_Ant,471
+Antony_JC,SERVANTS_Ant,401
+Antony_JC,SOLDIERS.ANTONY.0_Ant,631
+Antony_JC,SOLDIERS.ANTONY.X.1_Ant,7
+Antony_JC,SOLDIERS.ANTONY.X.2_Ant,113
+Antony_JC,SOLDIERS.ANTONY.X.3_Ant,95
+Antony_JC,SOLDIERS.ANTONY_Ant,558
+Antony_JC,SOLDIERS_Ant,120
+Antony_JC,Scarus_Ant,729
+Antony_JC,Soothsayer_Ant,174
+Antony_JC,Thidias_Ant,424
+Antony_JC,Ventidius_Ant,732
+Boy_Ant,Agrippa_Ant,32
+Boy_Ant,Antony_JC,32
+Boy_Ant,CAPTAINS_Ant,32
+Boy_Ant,Enobarbus_Ant,32
+Boy_Ant,Lepidus_JC,32
+Boy_Ant,Maecenas_Ant,32
+Boy_Ant,Menas_Ant,32
+Boy_Ant,Octavius_JC,32
+Boy_Ant,Pompey_Ant,32
+Boy_Ant,SERVANTS_Ant,32
+CAPTAINS.0.1_Ant,ATTENDANTS_Ant,11
+CAPTAINS.0.1_Ant,Antony_JC,11
+CAPTAINS.0.1_Ant,CAPTAINS_Ant,11
+CAPTAINS.0.1_Ant,Charmian_Ant,11
+CAPTAINS.0.1_Ant,Cleopatra_Ant,11
+CAPTAINS.0.1_Ant,Eros_Ant,11
+CAPTAINS.0.1_Ant,SOLDIERS.ANTONY.0_Ant,11
+CAPTAINS.0.1_Ant,SOLDIERS.ANTONY.X.2_Ant,11
+CAPTAINS.0.1_Ant,SOLDIERS.ANTONY_Ant,11
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,ATTENDANTS_Ant,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,Antony_JC,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,CAPTAINS_Ant,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,Charmian_Ant,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,Cleopatra_Ant,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,Eros_Ant,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,SOLDIERS.ANTONY.0_Ant,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,SOLDIERS.ANTONY.X.2_Ant,6
+CAPTAINS_Ant SOLDIERS.ANTONY_Ant,SOLDIERS.ANTONY_Ant,6
+Canidius_Ant,Antony_JC,45
+Canidius_Ant,Cleopatra_Ant,45
+Canidius_Ant,Enobarbus_Ant,118
+Canidius_Ant,MESSENGERS.X.4_Ant,15
+Canidius_Ant,SOLDIERS.ANTONY.X.1_Ant,93
+Canidius_Ant,Scarus_Ant,51
+Charmian_Ant,ATTENDANTS.ANTONY_Ant,11
+Charmian_Ant,ATTENDANTS_Ant,8
+Charmian_Ant,Alexas_Ant,559
+Charmian_Ant,Antony_JC,36
+Charmian_Ant,Cleopatra_Ant,515
+Charmian_Ant,Diomedes_Ant,25
+Charmian_Ant,Dolabella_Ant,5
+Charmian_Ant,Enobarbus_Ant,397
+Charmian_Ant,Eros_Ant,11
+Charmian_Ant,GUARDS.CAESAR_Ant,54
+Charmian_Ant,GUARDS_Ant,25
+Charmian_Ant,Gallus_Ant,11
+Charmian_Ant,Iras_Ant,899
+Charmian_Ant,MESSENGERS.X.2_Ant,22
+Charmian_Ant,Mardian_Ant,550
+Charmian_Ant,Proculeius_Ant,11
+Charmian_Ant,SERVANTS.Lamprius_Ant,397
+Charmian_Ant,SERVANTS.Lucillius_Ant,397
+Charmian_Ant,SERVANTS.Rannius_Ant,397
+Charmian_Ant,SOLDIERS.ANTONY.0_Ant,8
+Charmian_Ant,SOLDIERS.CAESAR_Ant,11
+Charmian_Ant,Soothsayer_Ant,397
+Charmian_Ant Iras_Ant Alexas_Ant,Alexas_Ant,6
+Charmian_Ant Iras_Ant Alexas_Ant,Charmian_Ant,6
+Charmian_Ant Iras_Ant Alexas_Ant,Cleopatra_Ant,6
+Charmian_Ant Iras_Ant Alexas_Ant,Iras_Ant,6
+Charmian_Ant Iras_Ant LADIES_Ant GUARDS_Ant Diomedes_Ant,Antony_JC,5
+Charmian_Ant Iras_Ant LADIES_Ant GUARDS_Ant Diomedes_Ant,Charmian_Ant,5
+Charmian_Ant Iras_Ant LADIES_Ant GUARDS_Ant Diomedes_Ant,Cleopatra_Ant,5
+Charmian_Ant Iras_Ant LADIES_Ant GUARDS_Ant Diomedes_Ant,Diomedes_Ant,5
+Charmian_Ant Iras_Ant LADIES_Ant GUARDS_Ant Diomedes_Ant,GUARDS_Ant,5
+Charmian_Ant Iras_Ant LADIES_Ant GUARDS_Ant Diomedes_Ant,Iras_Ant,5
+Cleopatra_Ant,ATTENDANTS.ANTONY_Ant,60
+Cleopatra_Ant,ATTENDANTS.CAESAR_Ant,452
+Cleopatra_Ant,ATTENDANTS_Ant,88
+Cleopatra_Ant,Alexas_Ant,1913
+Cleopatra_Ant,Ambassador_Ant,7
+Cleopatra_Ant,Antony_JC,1756
+Cleopatra_Ant,Canidius_Ant,28
+Cleopatra_Ant,Charmian_Ant,5701
+Cleopatra_Ant,Countryman_Ant,77
+Cleopatra_Ant,Demetrius_Ant,189
+Cleopatra_Ant,Diomedes_Ant,615
+Cleopatra_Ant,Dolabella_Ant,844
+Cleopatra_Ant,EUNUCHS_Ant,189
+Cleopatra_Ant,Enobarbus_Ant,477
+Cleopatra_Ant,Eros_Ant,91
+Cleopatra_Ant,GUARDS.CAESAR.1_Ant,80
+Cleopatra_Ant,GUARDS_Ant,615
+Cleopatra_Ant,Gallus_Ant,638
+Cleopatra_Ant,Iras_Ant,5755
+Cleopatra_Ant,MESSENGERS.ANTONY.1_Ant,12
+Cleopatra_Ant,MESSENGERS.X.1_Ant,166
+Cleopatra_Ant,MESSENGERS.X.2_Ant,772
+Cleopatra_Ant,Maecenas_Ant,452
+Cleopatra_Ant,Mardian_Ant,1847
+Cleopatra_Ant,Octavius_JC,452
+Cleopatra_Ant,Philo_Ant,189
+Cleopatra_Ant,Proculeius_Ant,767
+Cleopatra_Ant,SERVANTS.ANTONY_Ant,19
+Cleopatra_Ant,SERVANTS.Lamprius_Ant,57
+Cleopatra_Ant,SERVANTS.Lucillius_Ant,57
+Cleopatra_Ant,SERVANTS.Rannius_Ant,57
+Cleopatra_Ant,SERVANTS.X.1_Ant,33
+Cleopatra_Ant,SERVANTS.X.2_Ant,149
+Cleopatra_Ant,SOLDIERS.ANTONY.0_Ant,69
+Cleopatra_Ant,SOLDIERS.ANTONY_Ant,40
+Cleopatra_Ant,SOLDIERS.CAESAR_Ant,186
+Cleopatra_Ant,Scarus_Ant,40
+Cleopatra_Ant,Seleucus_Ant,285
+Cleopatra_Ant,Soothsayer_Ant,57
+Cleopatra_Ant,Thidias_Ant,127
+Countryman_Ant,Charmian_Ant,296
+Countryman_Ant,Cleopatra_Ant,296
+Demetrius_Ant,MESSENGERS.X.1_Ant,41
+Demetrius_Ant,Philo_Ant,41
+Diomedes_Ant,Antony_JC,140
+Diomedes_Ant,Charmian_Ant,26
+Diomedes_Ant,Cleopatra_Ant,26
+Diomedes_Ant,Eros_Ant,140
+Diomedes_Ant,GUARDS.Dercetus_Ant,15
+Diomedes_Ant,Iras_Ant,26
+Dolabella_Ant,ATTENDANTS.CAESAR_Ant,94
+Dolabella_Ant,Agrippa_Ant,44
+Dolabella_Ant,Charmian_Ant,255
+Dolabella_Ant,Cleopatra_Ant,330
+Dolabella_Ant,GUARDS.CAESAR_Ant,81
+Dolabella_Ant,Gallus_Ant,96
+Dolabella_Ant,Iras_Ant,330
+Dolabella_Ant,Maecenas_Ant,62
+Dolabella_Ant,Octavius_JC,100
+Dolabella_Ant,Proculeius_Ant,96
+Dolabella_Ant,SOLDIERS.CAESAR_Ant,34
+Dolabella_Ant,Thidias_Ant,38
+Egyptian_Ant,Agrippa_Ant,47
+Egyptian_Ant,GUARDS.Dercetus_Ant,47
+Egyptian_Ant,Gallus_Ant,47
+Egyptian_Ant,Maecenas_Ant,47
+Egyptian_Ant,Octavius_JC,47
+Egyptian_Ant,Proculeius_Ant,47
+Enobarbus_Ant,ATTENDANTS_Ant,95
+Enobarbus_Ant,Agrippa_Ant,1038
+Enobarbus_Ant,Alexas_Ant,49
+Enobarbus_Ant,Antony_JC,978
+Enobarbus_Ant,Boy_Ant,148
+Enobarbus_Ant,CAPTAINS_Ant,148
+Enobarbus_Ant,Canidius_Ant,149
+Enobarbus_Ant,Charmian_Ant,475
+Enobarbus_Ant,Cleopatra_Ant,674
+Enobarbus_Ant,Enobarbus_Ant,126
+Enobarbus_Ant,Eros_Ant,78
+Enobarbus_Ant,Iras_Ant,475
+Enobarbus_Ant,Lepidus_JC,428
+Enobarbus_Ant,Maecenas_Ant,804
+Enobarbus_Ant,Mardian_Ant,49
+Enobarbus_Ant,Menas_Ant,525
+Enobarbus_Ant,Octavia_Ant,55
+Enobarbus_Ant,Octavius_JC,355
+Enobarbus_Ant,Pompey_Ant,216
+Enobarbus_Ant,SERVANTS.ANTONY_Ant,66
+Enobarbus_Ant,SERVANTS.Lamprius_Ant,49
+Enobarbus_Ant,SERVANTS.Lucillius_Ant,49
+Enobarbus_Ant,SERVANTS.Rannius_Ant,49
+Enobarbus_Ant,SERVANTS_Ant,165
+Enobarbus_Ant,SOLDIERS.ANTONY.0_Ant,182
+Enobarbus_Ant,SOLDIERS.CAESAR.X.1_Ant,6
+Enobarbus_Ant,SOLDIERS_Ant,68
+Enobarbus_Ant,Scarus_Ant,48
+Enobarbus_Ant,Soothsayer_Ant,49
+Enobarbus_Ant,Thidias_Ant,106
+Enobarbus_Ant,Ventidius_Ant,89
+Enobarbus_Ant,WATCHMEN.1_Ant,138
+Enobarbus_Ant,WATCHMEN.2_Ant,138
+Enobarbus_Ant,WATCHMEN.Sentry_Ant,138
+Eros_Ant,ATTENDANTS.ANTONY_Ant,67
+Eros_Ant,ATTENDANTS_Ant,5
+Eros_Ant,Antony_JC,245
+Eros_Ant,Charmian_Ant,72
+Eros_Ant,Cleopatra_Ant,72
+Eros_Ant,Enobarbus_Ant,149
+Eros_Ant,Iras_Ant,67
+Eros_Ant,SOLDIERS.ANTONY.0_Ant,34
+Eros_Ant,SOLDIERS.ANTONY.X.3_Ant,13
+Eros_Ant,Scarus_Ant,16
+GUARDS.0.1_Ant,Antony_JC,42
+GUARDS.0.1_Ant,Diomedes_Ant,22
+GUARDS.0.1_Ant,Eros_Ant,42
+GUARDS.0.1_Ant,GUARDS.Dercetus_Ant,20
+GUARDS.0.1_Ant,GUARDS_Ant,42
+GUARDS.0.2_Ant,Antony_JC,12
+GUARDS.0.2_Ant,Eros_Ant,12
+GUARDS.0.2_Ant,GUARDS.Dercetus_Ant,12
+GUARDS.0.2_Ant,GUARDS_Ant,12
+GUARDS.0.3_Ant,Antony_JC,5
+GUARDS.0.3_Ant,Eros_Ant,5
+GUARDS.0.3_Ant,GUARDS.Dercetus_Ant,5
+GUARDS.0.3_Ant,GUARDS_Ant,5
+GUARDS.CAESAR.0.1_Ant,ATTENDANTS.CAESAR_Ant,81
+GUARDS.CAESAR.0.1_Ant,Charmian_Ant,120
+GUARDS.CAESAR.0.1_Ant,Cleopatra_Ant,120
+GUARDS.CAESAR.0.1_Ant,Dolabella_Ant,81
+GUARDS.CAESAR.0.1_Ant,GUARDS.CAESAR_Ant,120
+GUARDS.CAESAR.0.1_Ant,Gallus_Ant,81
+GUARDS.CAESAR.0.1_Ant,Iras_Ant,120
+GUARDS.CAESAR.0.1_Ant,Maecenas_Ant,81
+GUARDS.CAESAR.0.1_Ant,Octavius_JC,81
+GUARDS.CAESAR.0.1_Ant,Proculeius_Ant,81
+GUARDS.CAESAR.0.2_Ant,Charmian_Ant,16
+GUARDS.CAESAR.0.2_Ant,Cleopatra_Ant,16
+GUARDS.CAESAR.0.2_Ant,Dolabella_Ant,5
+GUARDS.CAESAR.0.2_Ant,GUARDS.CAESAR_Ant,16
+GUARDS.CAESAR.0.2_Ant,Iras_Ant,16
+GUARDS.CAESAR.1_Ant,Charmian_Ant,26
+GUARDS.CAESAR.1_Ant,Cleopatra_Ant,26
+GUARDS.CAESAR.1_Ant,Countryman_Ant,6
+GUARDS.Dercetus_Ant,Agrippa_Ant,156
+GUARDS.Dercetus_Ant,Antony_JC,37
+GUARDS.Dercetus_Ant,Diomedes_Ant,7
+GUARDS.Dercetus_Ant,Eros_Ant,37
+GUARDS.Dercetus_Ant,Gallus_Ant,156
+GUARDS.Dercetus_Ant,Maecenas_Ant,156
+GUARDS.Dercetus_Ant,Octavius_JC,156
+GUARDS.Dercetus_Ant,Proculeius_Ant,156
+GUARDS_Ant,Antony_JC,5
+GUARDS_Ant,Diomedes_Ant,5
+GUARDS_Ant,Eros_Ant,5
+GUARDS_Ant GUARDS.Dercetus_Ant,Antony_JC,6
+GUARDS_Ant GUARDS.Dercetus_Ant,Eros_Ant,6
+GUARDS_Ant GUARDS.Dercetus_Ant,GUARDS.Dercetus_Ant,6
+GUARDS_Ant GUARDS.Dercetus_Ant,GUARDS_Ant,6
+Gallus_Ant,Charmian_Ant,16
+Gallus_Ant,Cleopatra_Ant,16
+Gallus_Ant,Iras_Ant,16
+Gallus_Ant,Proculeius_Ant,16
+Gallus_Ant,SOLDIERS.CAESAR_Ant,16
+Iras_Ant,ATTENDANTS.ANTONY_Ant,31
+Iras_Ant,Alexas_Ant,122
+Iras_Ant,Antony_JC,49
+Iras_Ant,Charmian_Ant,194
+Iras_Ant,Cleopatra_Ant,101
+Iras_Ant,Diomedes_Ant,18
+Iras_Ant,Enobarbus_Ant,122
+Iras_Ant,Eros_Ant,31
+Iras_Ant,GUARDS_Ant,18
+Iras_Ant,Gallus_Ant,4
+Iras_Ant,Mardian_Ant,122
+Iras_Ant,Proculeius_Ant,4
+Iras_Ant,SERVANTS.Lamprius_Ant,122
+Iras_Ant,SERVANTS.Lucillius_Ant,122
+Iras_Ant,SERVANTS.Rannius_Ant,122
+Iras_Ant,SOLDIERS.CAESAR_Ant,4
+Iras_Ant,Soothsayer_Ant,122
+Lepidus_JC,ATTENDANTS.ROMAN_Ant,118
+Lepidus_JC,Agrippa_Ant,328
+Lepidus_JC,Antony_JC,272
+Lepidus_JC,Boy_Ant,94
+Lepidus_JC,CAPTAINS_Ant,94
+Lepidus_JC,Enobarbus_Ant,336
+Lepidus_JC,MESSENGERS.CAESAR.1_Ant,68
+Lepidus_JC,MESSENGERS.CAESAR.2_Ant,63
+Lepidus_JC,Maecenas_Ant,310
+Lepidus_JC,Menas_Ant,123
+Lepidus_JC,Octavia_Ant,18
+Lepidus_JC,Octavius_JC,390
+Lepidus_JC,Pompey_Ant,123
+Lepidus_JC,SERVANTS_Ant,94
+Lepidus_JC,SOLDIERS_Ant,29
+Lepidus_JC,Ventidius_Ant,131
+MESSENGERS.ANTONY.1_Ant,Antony_JC,105
+MESSENGERS.ANTONY.2_Ant,Antony_JC,15
+MESSENGERS.ANTONY.3_Ant,Antony_JC,31
+MESSENGERS.CAESAR.1_Ant,ATTENDANTS.ROMAN_Ant,58
+MESSENGERS.CAESAR.1_Ant,Lepidus_JC,58
+MESSENGERS.CAESAR.1_Ant,Octavius_JC,58
+MESSENGERS.CAESAR.2_Ant,ATTENDANTS.ROMAN_Ant,79
+MESSENGERS.CAESAR.2_Ant,Lepidus_JC,79
+MESSENGERS.CAESAR.2_Ant,MESSENGERS.CAESAR.1_Ant,79
+MESSENGERS.CAESAR.2_Ant,Octavius_JC,79
+MESSENGERS.X.1_Ant,Alexas_Ant,10
+MESSENGERS.X.1_Ant,Antony_JC,10
+MESSENGERS.X.1_Ant,Charmian_Ant,10
+MESSENGERS.X.1_Ant,Cleopatra_Ant,10
+MESSENGERS.X.1_Ant,Demetrius_Ant,10
+MESSENGERS.X.1_Ant,EUNUCHS_Ant,10
+MESSENGERS.X.1_Ant,Iras_Ant,10
+MESSENGERS.X.1_Ant,Mardian_Ant,10
+MESSENGERS.X.1_Ant,Philo_Ant,10
+MESSENGERS.X.2_Ant,Alexas_Ant,320
+MESSENGERS.X.2_Ant,Charmian_Ant,320
+MESSENGERS.X.2_Ant,Cleopatra_Ant,320
+MESSENGERS.X.2_Ant,Iras_Ant,320
+MESSENGERS.X.2_Ant,Mardian_Ant,194
+MESSENGERS.X.3_Ant,Antony_JC,18
+MESSENGERS.X.3_Ant,Canidius_Ant,18
+MESSENGERS.X.3_Ant,Cleopatra_Ant,18
+MESSENGERS.X.3_Ant,Enobarbus_Ant,18
+MESSENGERS.X.4_Ant,Canidius_Ant,6
+MESSENGERS.X.4_Ant,SOLDIERS.ANTONY.X.1_Ant,6
+MESSENGERS.X.5_Ant,Dolabella_Ant,8
+MESSENGERS.X.5_Ant,Enobarbus_Ant,8
+MESSENGERS.X.5_Ant,Octavius_JC,8
+MESSENGERS.X.5_Ant,SOLDIERS.ANTONY.0_Ant,8
+Maecenas_Ant,ATTENDANTS.OCTAVIA_Ant,44
+Maecenas_Ant,Agrippa_Ant,277
+Maecenas_Ant,Antony_JC,31
+Maecenas_Ant,Enobarbus_Ant,127
+Maecenas_Ant,GUARDS.Dercetus_Ant,26
+Maecenas_Ant,Gallus_Ant,26
+Maecenas_Ant,Lepidus_JC,50
+Maecenas_Ant,Octavia_Ant,44
+Maecenas_Ant,Octavius_JC,162
+Maecenas_Ant,Proculeius_Ant,26
+Maecenas_Ant,SOLDIERS.CAESAR_Ant,40
+Maecenas_Ant,Ventidius_Ant,31
+Maecenas_Ant Agrippa_Ant,Agrippa_Ant,6
+Maecenas_Ant Agrippa_Ant,Lepidus_JC,6
+Maecenas_Ant Agrippa_Ant,Maecenas_Ant,6
+Mardian_Ant,Alexas_Ant,9
+Mardian_Ant,Antony_JC,91
+Mardian_Ant,Charmian_Ant,56
+Mardian_Ant,Cleopatra_Ant,56
+Mardian_Ant,Eros_Ant,91
+Mardian_Ant,Iras_Ant,56
+Menas_Ant,Agrippa_Ant,261
+Menas_Ant,Antony_JC,261
+Menas_Ant,Boy_Ant,261
+Menas_Ant,CAPTAINS_Ant,261
+Menas_Ant,Enobarbus_Ant,515
+Menas_Ant,Lepidus_JC,261
+Menas_Ant,Maecenas_Ant,261
+Menas_Ant,Menecrates_Ant,104
+Menas_Ant,Octavius_JC,261
+Menas_Ant,Pompey_Ant,365
+Menas_Ant,SERVANTS_Ant,261
+Menas_Ant,Varrius_Ant,35
+Octavia_Ant,ATTENDANTS.OCTAVIA_Ant,123
+Octavia_Ant,Agrippa_Ant,151
+Octavia_Ant,Antony_JC,187
+Octavia_Ant,Enobarbus_Ant,28
+Octavia_Ant,Lepidus_JC,28
+Octavia_Ant,Maecenas_Ant,123
+Octavia_Ant,Octavius_JC,169
+Octavius_JC,ATTENDANTS.CAESAR_Ant,675
+Octavius_JC,ATTENDANTS.OCTAVIA_Ant,413
+Octavius_JC,ATTENDANTS.ROMAN_Ant,543
+Octavius_JC,Agrippa_Ant,2384
+Octavius_JC,Ambassador_Ant,161
+Octavius_JC,Antony_JC,855
+Octavius_JC,Boy_Ant,144
+Octavius_JC,CAPTAINS_Ant,144
+Octavius_JC,Charmian_Ant,479
+Octavius_JC,Cleopatra_Ant,479
+Octavius_JC,Dolabella_Ant,776
+Octavius_JC,Egyptian_Ant,37
+Octavius_JC,Enobarbus_Ant,923
+Octavius_JC,GUARDS.CAESAR_Ant,194
+Octavius_JC,GUARDS.Dercetus_Ant,447
+Octavius_JC,Gallus_Ant,892
+Octavius_JC,Iras_Ant,479
+Octavius_JC,Lepidus_JC,1395
+Octavius_JC,MESSENGERS.CAESAR.1_Ant,285
+Octavius_JC,MESSENGERS.CAESAR.2_Ant,212
+Octavius_JC,MESSENGERS.X.5_Ant,23
+Octavius_JC,Maecenas_Ant,2467
+Octavius_JC,Menas_Ant,239
+Octavius_JC,Octavia_Ant,592
+Octavius_JC,Pompey_Ant,239
+Octavius_JC,Proculeius_Ant,875
+Octavius_JC,SERVANTS_Ant,144
+Octavius_JC,SOLDIERS.ANTONY.0_Ant,71
+Octavius_JC,SOLDIERS.CAESAR_Ant,207
+Octavius_JC,SOLDIERS_Ant,95
+Octavius_JC,Seleucus_Ant,30
+Octavius_JC,Taurus_Ant,43
+Octavius_JC,Thidias_Ant,196
+Octavius_JC,Ventidius_Ant,437
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Agrippa_Ant,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Antony_JC,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Boy_Ant,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,CAPTAINS_Ant,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Enobarbus_Ant,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Lepidus_JC,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Maecenas_Ant,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Menas_Ant,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Octavius_JC,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,Pompey_Ant,17
+Octavius_JC Antony_JC Pompey_Ant Lepidus_JC Agrippa_Ant Maecenas_Ant Enobarbus_Ant Menas_Ant CAPTAINS_Ant Boy_Ant,SERVANTS_Ant,17
+Octavius_JC Lepidus_JC Antony_JC,Agrippa_Ant,5
+Octavius_JC Lepidus_JC Antony_JC,Antony_JC,5
+Octavius_JC Lepidus_JC Antony_JC,Enobarbus_Ant,5
+Octavius_JC Lepidus_JC Antony_JC,Lepidus_JC,5
+Octavius_JC Lepidus_JC Antony_JC,Maecenas_Ant,5
+Octavius_JC Lepidus_JC Antony_JC,Menas_Ant,5
+Octavius_JC Lepidus_JC Antony_JC,Octavius_JC,5
+Octavius_JC Lepidus_JC Antony_JC,Pompey_Ant,5
+Octavius_JC Lepidus_JC Antony_JC,SOLDIERS_Ant,5
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Agrippa_Ant,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Antony_JC,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Enobarbus_Ant,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Lepidus_JC,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Maecenas_Ant,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Menas_Ant,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Octavius_JC,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,Pompey_Ant,8
+Octavius_JC Lepidus_JC Antony_JC Maecenas_Ant Agrippa_Ant,SOLDIERS_Ant,8
+Philo_Ant,Demetrius_Ant,160
+Philo_Ant,MESSENGERS.X.1_Ant,24
+Pompey_Ant,Agrippa_Ant,801
+Pompey_Ant,Antony_JC,801
+Pompey_Ant,Boy_Ant,278
+Pompey_Ant,CAPTAINS_Ant,278
+Pompey_Ant,Enobarbus_Ant,801
+Pompey_Ant,Lepidus_JC,801
+Pompey_Ant,Maecenas_Ant,801
+Pompey_Ant,Menas_Ant,1170
+Pompey_Ant,Menecrates_Ant,369
+Pompey_Ant,Octavius_JC,801
+Pompey_Ant,SERVANTS_Ant,278
+Pompey_Ant,SOLDIERS_Ant,523
+Pompey_Ant,Varrius_Ant,162
+Proculeius_Ant,Agrippa_Ant,6
+Proculeius_Ant,Charmian_Ant,247
+Proculeius_Ant,Cleopatra_Ant,247
+Proculeius_Ant,Dolabella_Ant,36
+Proculeius_Ant,GUARDS.Dercetus_Ant,6
+Proculeius_Ant,Gallus_Ant,127
+Proculeius_Ant,Iras_Ant,247
+Proculeius_Ant,Maecenas_Ant,6
+Proculeius_Ant,Octavius_JC,6
+Proculeius_Ant,SOLDIERS.CAESAR_Ant,121
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,ATTENDANTS.CAESAR_Ant,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Charmian_Ant,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Cleopatra_Ant,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Dolabella_Ant,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,GUARDS.CAESAR_Ant,10
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Gallus_Ant,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Iras_Ant,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Maecenas_Ant,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Octavius_JC,17
+Proculeius_Ant Gallus_Ant Maecenas_Ant ATTENDANTS.CAESAR_Ant,Proculeius_Ant,17
+SERVANTS.0.1_Ant,SERVANTS_Ant,84
+SERVANTS.0.2_Ant,SERVANTS_Ant,71
+SERVANTS.X.1_Ant,Charmian_Ant,6
+SERVANTS.X.1_Ant,Cleopatra_Ant,6
+SERVANTS.X.1_Ant,Enobarbus_Ant,6
+SERVANTS.X.1_Ant,Iras_Ant,6
+SERVANTS.X.2_Ant,Antony_JC,12
+SERVANTS.X.2_Ant,Charmian_Ant,12
+SERVANTS.X.2_Ant,Cleopatra_Ant,12
+SERVANTS.X.2_Ant,Enobarbus_Ant,12
+SERVANTS.X.2_Ant,Iras_Ant,12
+SERVANTS.X.2_Ant,Thidias_Ant,12
+SERVANTS_Ant,ATTENDANTS_Ant,7
+SERVANTS_Ant,Antony_JC,7
+SERVANTS_Ant,Charmian_Ant,7
+SERVANTS_Ant,Cleopatra_Ant,7
+SERVANTS_Ant,Enobarbus_Ant,7
+SERVANTS_Ant,Iras_Ant,7
+SERVANTS_Ant,SERVANTS.ANTONY_Ant,7
+SOLDIERS.ANTONY.0.1_Ant,SOLDIERS.ANTONY.0_Ant,81
+SOLDIERS.ANTONY.0.1_Ant,SOLDIERS.ANTONY_Ant,107
+SOLDIERS.ANTONY.0.2_Ant,SOLDIERS.ANTONY.0_Ant,64
+SOLDIERS.ANTONY.0.2_Ant,SOLDIERS.ANTONY_Ant,97
+SOLDIERS.ANTONY.0.3_Ant,SOLDIERS.ANTONY.0_Ant,31
+SOLDIERS.ANTONY.0.3_Ant,SOLDIERS.ANTONY_Ant,31
+SOLDIERS.ANTONY.0.4_Ant,SOLDIERS.ANTONY.0_Ant,10
+SOLDIERS.ANTONY.0.4_Ant,SOLDIERS.ANTONY_Ant,10
+SOLDIERS.ANTONY.X.1_Ant,Antony_JC,51
+SOLDIERS.ANTONY.X.1_Ant,Canidius_Ant,105
+SOLDIERS.ANTONY.X.1_Ant,Cleopatra_Ant,51
+SOLDIERS.ANTONY.X.1_Ant,Enobarbus_Ant,51
+SOLDIERS.ANTONY.X.2_Ant,ATTENDANTS_Ant,23
+SOLDIERS.ANTONY.X.2_Ant,Antony_JC,23
+SOLDIERS.ANTONY.X.2_Ant,Charmian_Ant,23
+SOLDIERS.ANTONY.X.2_Ant,Cleopatra_Ant,23
+SOLDIERS.ANTONY.X.2_Ant,Eros_Ant,23
+SOLDIERS.ANTONY.X.2_Ant,SOLDIERS.ANTONY.0_Ant,23
+SOLDIERS.ANTONY.X.3_Ant,Antony_JC,79
+SOLDIERS.ANTONY.X.3_Ant,Eros_Ant,79
+SOLDIERS.ANTONY.X.3_Ant,SOLDIERS.ANTONY.0_Ant,79
+SOLDIERS.ANTONY_Ant,SOLDIERS.ANTONY.0_Ant,18
+SOLDIERS.CAESAR.X.1_Ant,Enobarbus_Ant,75
+SOLDIERS.CAESAR.X.1_Ant,SOLDIERS.ANTONY.0_Ant,75
+Scarus_Ant,Antony_JC,100
+Scarus_Ant,Canidius_Ant,15
+Scarus_Ant,Enobarbus_Ant,177
+Scarus_Ant,Eros_Ant,29
+Scarus_Ant,SOLDIERS.ANTONY.0_Ant,93
+Scarus_Ant,SOLDIERS.ANTONY_Ant,7
+Scarus_Ant,Scarus_Ant,55
+Seleucus_Ant,ATTENDANTS.CAESAR_Ant,34
+Seleucus_Ant,Charmian_Ant,34
+Seleucus_Ant,Cleopatra_Ant,34
+Seleucus_Ant,Dolabella_Ant,34
+Seleucus_Ant,Gallus_Ant,34
+Seleucus_Ant,Iras_Ant,34
+Seleucus_Ant,Maecenas_Ant,34
+Seleucus_Ant,Octavius_JC,34
+Seleucus_Ant,Proculeius_Ant,34
+Silius_Ant,SOLDIERS_Ant,84
+Silius_Ant,Ventidius_Ant,84
+Soothsayer_Ant,Alexas_Ant,101
+Soothsayer_Ant,Antony_JC,165
+Soothsayer_Ant,Charmian_Ant,101
+Soothsayer_Ant,Enobarbus_Ant,101
+Soothsayer_Ant,Iras_Ant,101
+Soothsayer_Ant,Mardian_Ant,101
+Soothsayer_Ant,SERVANTS.Lamprius_Ant,101
+Soothsayer_Ant,SERVANTS.Lucillius_Ant,101
+Soothsayer_Ant,SERVANTS.Rannius_Ant,101
+Taurus_Ant,Octavius_JC,4
+Taurus_Ant,SOLDIERS.CAESAR_Ant,4
+Thidias_Ant,ATTENDANTS.CAESAR_Ant,12
+Thidias_Ant,Agrippa_Ant,12
+Thidias_Ant,Antony_JC,22
+Thidias_Ant,Charmian_Ant,210
+Thidias_Ant,Cleopatra_Ant,210
+Thidias_Ant,Dolabella_Ant,12
+Thidias_Ant,Enobarbus_Ant,100
+Thidias_Ant,Iras_Ant,210
+Thidias_Ant,Octavius_JC,12
+Thidias_Ant,SERVANTS_Ant,4
+Varrius_Ant,Menas_Ant,31
+Varrius_Ant,Menecrates_Ant,31
+Varrius_Ant,Pompey_Ant,31
+Ventidius_Ant,SOLDIERS_Ant,273
+Ventidius_Ant,Silius_Ant,273
+WATCHMEN.1_Ant,Enobarbus_Ant,42
+WATCHMEN.1_Ant,WATCHMEN.2_Ant,42
+WATCHMEN.1_Ant,WATCHMEN.Sentry_Ant,42
+WATCHMEN.2_Ant,Enobarbus_Ant,47
+WATCHMEN.2_Ant,WATCHMEN.1_Ant,47
+WATCHMEN.2_Ant,WATCHMEN.Sentry_Ant,47
+WATCHMEN.Sentry_Ant,Enobarbus_Ant,119
+WATCHMEN.Sentry_Ant,WATCHMEN.1_Ant,119
+WATCHMEN.Sentry_Ant,WATCHMEN.2_Ant,119
