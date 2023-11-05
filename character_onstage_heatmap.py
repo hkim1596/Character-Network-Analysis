@@ -6,14 +6,21 @@ from bs4 import BeautifulSoup
 # Load the CSV file with the play titles
 metadata_dir = "metadata"
 plays_df = pd.read_csv(os.path.join(metadata_dir, "list_of_shakespeare_plays.csv"), header=None)
+
 # Create a mapping dictionary { 'Tro.xml': 'Troilus and Cressida', 'H5.xml': 'Henry V', ... }
 play_title_mapping = dict(zip(plays_df[0], plays_df[1]))
 
-def get_output_filename(xml_filename):
-    # Strip the extension and then add the play title from the mapping with '_onstage_heatmap.html'
-    base_name = os.path.splitext(xml_filename)[0]
-    # Use the mapping to get the full play title, replacing spaces with underscores
-    full_play_title = play_title_mapping.get(base_name, base_name).replace(" ", "_")
+# Function to generate the output filename based on the CSV filename
+def get_output_filename(csv_filename):
+    # Get the full play title from the mapping
+    full_play_title = play_title_mapping.get(csv_filename)
+    if not full_play_title:
+        raise ValueError(f"No title mapping found for {csv_filename}")
+    
+    # Replace spaces with underscores if there are any spaces
+    full_play_title = full_play_title.replace(" ", "_") if " " in full_play_title else full_play_title
+
+    # Append the required suffix to the play title
     return f"{full_play_title}_onstage_heatmap.html"
 
 def process_xml_to_heatmap(file_path):
