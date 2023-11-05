@@ -25,7 +25,7 @@ def get_output_filename(csv_filename):
     full_play_title = full_play_title.replace(" ", "_") if " " in full_play_title else full_play_title
 
     # Append the required suffix to the play title
-    return f"{full_play_title}_onstage_heatmap.html"
+    return f"{full_play_title}_exchange_heatmap.html"
 
 # Ensure output directories exist
 os.makedirs('output_exchange_heatmap', exist_ok=True)
