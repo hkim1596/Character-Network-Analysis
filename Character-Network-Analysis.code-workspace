@@ -1,7 +1,9 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ]
+	"folders": [
+		{
+			"name": "Character-Network-Analysis",
+			"path": "."
+		}
+	],
+	"settings": {}
 }
