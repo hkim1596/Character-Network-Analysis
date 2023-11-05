@@ -19,7 +19,7 @@ os.makedirs('output_deep_clustering_community', exist_ok=True)
 
 # Load the CSV file with the play titles
 metadata_dir = "metadata"
-plays_df = pd.read_csv(os.path.join(metadata_dir, "list_of_shakespeare_plays4.csv"), header=None)
+plays_df = pd.read_csv(os.path.join(metadata_dir, "list_of_shakespeare_plays0.csv"), header=None)
 play_title_mapping = dict(zip(plays_df[0].str.strip(), plays_df[1].str.strip()))
 
 # Load the BERT tokenizer and model
@@ -73,7 +73,7 @@ for json_file in os.listdir('output_json'):
             db_scores.append(davies_bouldin_score(embeddings, kmeans.labels_))
 
         # Plotting Davies-Bouldin scores using Plotly
-        db_output_filename = get_output_filename(json_file, prefix="DB_Index_")
+        db_output_filename = get_output_filename(json_file, middle_suffix="_DB_Index_")
         fig_db = px.line(x=K, y=db_scores, labels={'x':'Number of Clusters', 'y':'Davies-Bouldin Score'}, title='Davies-Bouldin Index Analysis')
         fig_db.write_html(os.path.join('output_deep_clustering_kmeans', db_output_filename))
 
@@ -92,7 +92,7 @@ for json_file in os.listdir('output_json'):
 
         df_plotly = pd.DataFrame({'x': low_dim_embeddings[:, 0], 'y': low_dim_embeddings[:, 1], 'label': list(character_embeddings.keys()), 'cluster': KMeans(n_clusters=optimal_clusters, n_init=10).fit_predict(embeddings)})
         fig_tsne = px.scatter(df_plotly, x='x', y='y', color='cluster', text='label', title="t-SNE visualization of character clusters")
-        tsne_output_filename = get_output_filename(json_file, prefix="tSNE_")
+        tsne_output_filename = get_output_filename(json_file, middle_suffix="_tSNE_")
         fig_tsne.write_html(os.path.join('output_deep_clustering_kmeans', tsne_output_filename))
 
         # Community detection with Louvain
